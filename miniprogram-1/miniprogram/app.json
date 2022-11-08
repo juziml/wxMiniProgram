@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/part3/part3",
     "pages/helloworld/hw1",
     "pages/index/index",
     "pages/logs/logs"
   ],
+
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
