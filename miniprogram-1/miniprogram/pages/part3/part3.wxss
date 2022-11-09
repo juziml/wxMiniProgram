@@ -4,15 +4,8 @@ page{
   justify-content: center;
   align-items: center;
   height: 100%;
-  flex-direction: column;
-  width: 750rpx;
-}
-.title{
-  font-size: 30pt;
-  color: aqua;
 }
 .root{
-  background-color: purple;
-  color: pink;
-  height: 10%;
+  display: flex;
+  flex-direction: column;
 }

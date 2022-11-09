@@ -1,31 +1,10 @@
 <view class="root">
-  <text class="title">Hello world</text>
-</view>
-<view>
-  <button class="weui-btn weui-btn_primary">
-    主样式-btn
-  </button>
-  <button class="weui-btn weui-btn_primary weui-btn_loading">
-    <i class="weui-loading"></i> 正在加载
-  </button>
-  <button class="weui-btn weui-btn_disabled">
-    主样式-btn-禁用
-  </button>
-</view>
-<view>
-  <swiper indicator-dots="true"
-  autoplay="{{true}}"
-  style="width: 750rpx;"
-  >
-    <swiper-item>
-      <image src="http://tva1.sinaimg.cn/large/008sVhfmgy1h25puseaepj30fm07rgs4.jpg" style="height: 375rpx; width: 375rpx;"></image>
-    </swiper-item>
-    <swiper-item>
-      <image src="http://tva1.sinaimg.cn/large/008sVhfmgy1h25puseaepj30fm07rgs4.jpg" style="height: 375rpx; width: 375rpx;"></image>
-    </swiper-item>
-    <swiper-item>
-      <image src="http://tva1.sinaimg.cn/large/008sVhfmgy1h25puseaepj30fm07rgs4.jpg" style="height: 375rpx; width: 375rpx;"></image>
-    </swiper-item>
+  <text class="t_name">I am {{name}}</text>
+  <text class="t_time">init time: {{timeNow}}</text>
+  <p>--</p>
+  <text class="r_time">refresh time: {{time}}</text>
+  <button bind:tap="getTime">获取时间</button>
 
-  </swiper>
+  <button bind:tap="showDialog">展示对话框</button>
+
 </view>
