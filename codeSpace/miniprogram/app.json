@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/part4/part4",
+    "pages/part3/part3",
+    "pages/helloworld/hw1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

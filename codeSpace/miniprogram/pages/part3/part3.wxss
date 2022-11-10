@@ -1,0 +1,11 @@
+page{
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.root{
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,7 @@
+<view class="root">
+<text wx:for="{{['a',b,c]}}">{{index}}:{{item}}</text>
+</view>
+<view>
+<text class="t_res">netRes:{{content}}</text>
+<button bindtap="onClick">发起请求</button>
+</view>
