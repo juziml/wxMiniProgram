@@ -1,0 +1,58 @@
+<view class="demo swiper-demo">
+  <view class="demo-title">Swiper 轮播</view>
+  <view class="demo-desc"> 用于循环轮播一组图片或内容，也可以滑动进行切换，轮播动效时间可以设置。 </view>
+  <view class="demo-section">
+    <t-demo title="01 类型" desc="轮播图的多种样式"></t-demo>
+    <view class="swiper-box">
+      <!-- 受控属性示例 -->
+      <base />
+    </view>
+
+    <view class="swiper-box">
+      <fraction />
+    </view>
+
+    <view class="swiper-box swiper-box2">
+      <custom />
+    </view>
+
+    <view class="swiper-box">
+      <nav-btn />
+    </view>
+    <t-demo title="02 垂直" desc="轮播图垂直样式"></t-demo>
+    <vertical />
+  </view>
+  <!-- <view class="demo-section">
+    <t-demo title="原生swiper" desc="效果对比"></t-demo>
+    <view class="swiper-box">
+      <swiper
+        class="swiper-wrap"
+        autoplay="{{autoplay}}"
+        duration="{{duration}}"
+        interval="{{interval}}"
+        indicator-dots="{{true}}"
+        current="{{current}}"
+      >
+        <swiper-item wx:for="{{items}}" wx:key="index">
+          <view class="item {{item.cls}}">{{index}}<image src="{{item.image}}" class="img" /></view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="swiper-demo-space" />
+    <view class="swiper-box">
+      <swiper
+        class="swiper-wrap"
+        autoplay="{{autoplay}}"
+        duration="{{duration}}"
+        interval="{{interval}}"
+        indicator-dots
+        vertical
+        current="{{current}}"
+      >
+        <swiper-item wx:for="{{items}}" wx:key="index">
+          <view class="item {{item.cls}}">{{index}}<image src="{{item.image}}" class="img" /></view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view> -->
+</view>

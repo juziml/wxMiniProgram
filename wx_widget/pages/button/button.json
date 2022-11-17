@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "Button 按钮",
+  "usingComponents": {
+    "base": "./base",
+    "size": "./size",
+    "icon-btn": "./icon-btn"
+  }
+}

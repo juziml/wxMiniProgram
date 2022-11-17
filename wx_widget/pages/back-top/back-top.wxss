@@ -1,0 +1,15 @@
+page {
+  background: #fff;
+}
+page .skeleton-text {
+  border-radius: 16rpx;
+}
+page .skeleton-item {
+  padding-bottom: 24rpx;
+}
+page .container-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32rpx;
+  flex-wrap: wrap;
+}

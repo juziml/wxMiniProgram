@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "PullDownRefresh 下拉刷新",
+  "navigationBarBackgroundColor": "#fff",
+  "backgroundColor": "#fff",
+  "disableScroll": true,
+  "usingComponents": {
+    "base": "./base",
+    "refresh-timeout": "./refresh-timeout"
+  }
+}

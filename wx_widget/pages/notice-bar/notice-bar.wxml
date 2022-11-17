@@ -1,0 +1,39 @@
+<view class="demo">
+  <view class="demo-title">NoticeBar 公告栏</view>
+  <view class="demo-desc"> 在导航栏下方，用于给用户显示提示消息 </view>
+  <t-demo title="01 类型" desc="基础静态公告栏">
+    <view class="box">
+      <base />
+    </view>
+
+    <view class="demo-section__desc">带图标静态公告栏</view>
+    <view class="box">
+      <iconDemo />
+    </view>
+
+    <view class="demo-section__desc">带操作公告栏</view>
+    <view class="box">
+      <event />
+    </view>
+
+    <view class="demo-section__desc">滚动公告栏</view>
+    <view class="box">
+      <scrolling />
+    </view>
+
+    <view class="demo-section__desc">自定义样式</view>
+    <view class="box">
+      <custom />
+    </view>
+  </t-demo>
+  <t-demo title="02 状态" desc="多行文字消息栏">
+    <view class="box">
+      <theme />
+    </view>
+
+    <view class="demo-section__desc">自定义样式</view>
+    <view class="box">
+      <customization />
+    </view>
+  </t-demo>
+</view>

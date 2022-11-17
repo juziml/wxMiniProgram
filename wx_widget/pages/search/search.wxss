@@ -1,0 +1,7 @@
+page .demo-section__wrapper {
+  opacity: 1;
+  background: #ffffff;
+}
+page .t-search {
+  padding: 16rpx 32rpx;
+}

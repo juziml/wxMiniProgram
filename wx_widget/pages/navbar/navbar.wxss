@@ -1,0 +1,6 @@
+page {
+  background: #fff;
+}
+.demo-block__oper {
+  margin: 0 32rpx;
+}

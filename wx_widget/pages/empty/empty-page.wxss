@@ -1,0 +1,14 @@
+page {
+  background-color: #fff;
+}
+.page {
+  padding-top: 240rpx;
+}
+.t-empty__actions {
+  margin-top: 128rpx !important;
+}
+.t-empty__button {
+  width: 320rpx !important;
+  height: 72rpx !important;
+  line-height: 72rpx !important;
+}

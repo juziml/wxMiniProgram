@@ -1,0 +1,12 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "base": "./base",
+    "brand": "./brand",
+    "back": "./back",
+    "back-home": "./back-home",
+    "img": "./img",
+    "brand-long": "./brand-long",
+    "custom-capsule": "./custom-capsule"
+  }
+}

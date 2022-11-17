@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "Rate",
+  "usingComponents": {
+    "base": "./base",
+    "un-filled": "./un-filled",
+    "count": "./count",
+    "allow-half": "./allow-half",
+    "show-text": "./show-text",
+    "disabled": "./disabled",
+    "color": "./color",
+    "size": "./size"
+  }
+}

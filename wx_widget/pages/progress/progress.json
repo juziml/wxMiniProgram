@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "Progress 进度条",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "base": "./base",
+    "transition": "./transition",
+    "status": "./status",
+    "custom": "./custom",
+    "size": "./size"
+  }
+}

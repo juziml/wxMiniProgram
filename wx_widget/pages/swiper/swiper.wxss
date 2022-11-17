@@ -1,0 +1,9 @@
+page {
+  background: #fff;
+}
+.swiper-demo .swiper-box {
+  margin: 0 32rpx 32rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+  transform: translateY(0);
+}

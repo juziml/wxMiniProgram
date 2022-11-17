@@ -1,0 +1,20 @@
+page {
+  background-color: #fff;
+}
+.demo-block__slot {
+  margin: 0;
+}
+.demo-block {
+  margin-bottom: 32rpx;
+  font-size: 24rpx;
+}
+.demo-block__desc {
+  margin-left: 32rpx;
+  margin-bottom: 16rpx;
+  line-height: 40rpx;
+  color: rgba(0, 0, 0, 0.4);
+}
+.demo-block__wrapper {
+  display: grid;
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "icon 图标",
+  "navigationBarBackgroundColor": "#fff",
+  "usingComponents": {
+    "base": "./base",
+    "custom": "./custom",
+    "iconImage": "./iconImage"
+  }
+}

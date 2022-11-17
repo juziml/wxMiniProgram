@@ -1,0 +1,84 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "scopeDataCheck": false,
+    "coverView": true,
+    "es6": true,
+    "postcss": true,
+    "compileHotReLoad": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "autoAudits": false,
+    "newFeature": true,
+    "uglifyFileName": false,
+    "uploadWithSourceMap": true,
+    "useIsolateContext": true,
+    "nodeModules": true,
+    "enhance": false,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "showShadowRootInWxmlPanel": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.11.3",
+  "appid": "wx30a98fc855586cf3",
+  "projectname": "TDesign",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "custom",
+          "pathName": "pages/button/button",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "rate",
+          "pathName": "pages/rate/rate",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "indexes",
+          "pathName": "pages/indexes/indexes",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "swiper",
+          "pathName": "pages/swiper/swiper",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "actionSheet",
+          "pathName": "pages/action-sheet/action-sheet",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "image-viewer",
+          "pathName": "pages/image-viewer/image-viewer",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
+}

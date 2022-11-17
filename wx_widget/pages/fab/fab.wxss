@@ -1,0 +1,9 @@
+.wrapper {
+  padding: 0 16px;
+}
+.wrapper t-button {
+  display: block;
+}
+.wrapper t-button + t-button {
+  margin-top: 16px;
+}

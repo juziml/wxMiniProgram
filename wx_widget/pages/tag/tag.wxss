@@ -1,0 +1,19 @@
+.group {
+  padding: 32rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.group.d-flex {
+  display: flex;
+  align-items: flex-start;
+}
+.group.padding-bottom {
+  padding: 32rpx 32rpx 0;
+}
+.group.margin {
+  margin: 16rpx 0;
+}
+.group .t-tag {
+  margin-right: 32rpx;
+}
