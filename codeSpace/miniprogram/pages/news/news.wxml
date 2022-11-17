@@ -1,2 +1,11 @@
 <!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<view class="page_head">
+  <swiper interval="2000" indicator-dots="true" autoplay="ture">
+    <block wx:for="{{banners}}" wx:key="*this">
+      <swiper-item>
+          <view>{{item.desc}}</view>
+          <image src="{{item.imagePath}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

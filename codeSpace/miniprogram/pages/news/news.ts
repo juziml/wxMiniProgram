@@ -5,14 +5,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    banners:'123'
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad() {
+    const that = this;
+    wx.request({
+      url:'https://www.wanandroid.com/banner/json',
+      success(res){
+        that.setData({
+          banners:res.data.data
+        })
+      }
 
+    })
   },
 
   /**
