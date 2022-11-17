@@ -2,3 +2,20 @@
 page{
   background-color: yellow;
 }
+
+.banner_item{
+  background-color: blueviolet;
+  position: relative;
+}
+
+.banner_title{
+  color: white;
+  font-size: 50rpx;
+  position: absolute;
+  top: 45%;  
+  left: 20rpx;
+  text-shadow: 2px 2px 7px black;
+}
+.banner_image{
+  width: 100%;
+}

@@ -3,8 +3,10 @@
   <swiper interval="2000" indicator-dots="true" autoplay="ture">
     <block wx:for="{{banners}}" wx:key="*this">
       <swiper-item>
-          <view>{{item.desc}}</view>
-          <image src="{{item.imagePath}}"></image>
+        <view class="banner_item">
+          <view class="banner_title">{{item.desc}}</view>
+          <image class="banner_image" src="{{item.imagePath}}" mode="widthFix"></image>
+        </view>
       </swiper-item>
     </block>
   </swiper>
